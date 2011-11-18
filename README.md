@@ -4,7 +4,7 @@ Parses LESS, beautifies LESS then writes LESS all using [LESS.js](http://github.
 
 ## Synopsis
 
-__Warning__ this is opionionated formatting, as it compresses lines that take up 
+__Warning__ this is opinionated formatting, as it compresses lines that take up 
 less than 81 chars into one line to be more concise.
 
 ```scss
@@ -73,6 +73,7 @@ less than 81 chars into one line to be more concise.
 * write a command line tool to make the above example work
 * more test coverage (maybe I am still missing something within the less.js spec)
 * options for formatting like, suppressing single-line compressions
+* shorten synopsis and try to include as much of the less spec as possible
 
 
 
