@@ -34,8 +34,9 @@
     li a:hover, li a:active, li.current a:link,
     li.current a:visited, li.submenu a:link, li.submenu a:visited {
       .menublock {
+        @padding: 10px;
         opacity: 1;
-        padding: 10px ((@desired-menu-width - 100px) / 2);
+        padding: @padding ((@desired-menu-width - (@padding * 10)) / 2);
       }
     }
   }

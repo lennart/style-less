@@ -8,8 +8,6 @@ __Warning__ this is opionionated formatting, as it compresses lines that take up
 less than 81 chars into one line to be more concise.
 
 ```scss
-
-/* Comments before rule */
 .navbar {
   background-color: black;
   color: #fff;
@@ -46,8 +44,9 @@ less than 81 chars into one line to be more concise.
     li a:hover, li a:active, li.current a:link,
     li.current a:visited, li.submenu a:link, li.submenu a:visited {
       .menublock {
+        @padding: 10px;
         opacity: 1;
-        padding: 10px ((@desired-menu-width - 100px) / 2);
+        padding: @padding ((@desired-menu-width - (@padding * 10)) / 2);
       }
     }
   }
@@ -59,7 +58,6 @@ less than 81 chars into one line to be more concise.
 
 /* Comments between root rules */
 #main { .link { color: white; font-weight: bold; text-decoration: underline; } }
-
 ```
 
 ## Installation

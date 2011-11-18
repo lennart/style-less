@@ -200,7 +200,7 @@ module.exports = (tree) ->
             _css += padding + rule.toLess(env)
           else if rule.value
             if rule.variable
-              _css += context + padding + rule.name + ": " + rule.value.toLess(env) + ";"
+              _css += padding + rule.name + ": " + rule.value.toLess(env) + ";"
             else
               _css += context + rule.value.toString()
       _css += '\n' unless list.length == r + 1
