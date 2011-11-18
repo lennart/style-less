@@ -19,7 +19,7 @@
     "less" : ">=1.1.4"
   },
   "devDependencies": {
-    "vows": "*".
+    "vows": "*",
     "coffee-script" : "*"
   }
 }
