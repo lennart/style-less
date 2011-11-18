@@ -1,0 +1,25 @@
+{
+  "author": "Lennart Melzer <l@melzer.it>",
+  "name": "style-less",
+  "description": "Parses LESS, beautifies LESS then writes LESS all using LESS.js",
+  "version": "0.0.0",
+  "homepage": "http://github.com/artflakes/style-less",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/artflakes/style-less.git"
+  },
+  "main": "lib/style-less/style-less.js",
+  "scripts": {
+    "test": "vows --spec spec/stylelessSpec.coffee"
+  },
+  "engines": {
+    "node": ">=0.4.8"
+  },
+  "dependencies": {
+    "less" : ">=1.1.4"
+  },
+  "devDependencies": {
+    "vows": "*".
+    "coffee-script" : "*"
+  }
+}
