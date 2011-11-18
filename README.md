@@ -7,7 +7,7 @@ Parses LESS, beautifies LESS then writes LESS all using LESS.js
 __Warning__ this is opionionated formatting, as it compresses lines that take up 
 less than 81 chars into one line to be more concise.
 
-```less
+```scss
 
 /* Comments before rule */
 .navbar {
