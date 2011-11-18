@@ -13,8 +13,10 @@ module.exports = (tree) ->
         p.name
     .join(", ").trim()
     sel = @selectors[0].toLess(env).trim() + "(" + (params || "") + ")"
-    rules = @rules.reduce (_css, r) ->
+    rules = @rules.reduce (_css, r, idx, list) ->
       _css += ctx + "  " + r.toLess(ctx + "  ",env).trim()
+      # if this is the last rule, skip the line break
+      _css += "\n" unless idx == list.length - 1
       _css
     , ""
     merged = _multi(sel, ctx, env, rules)

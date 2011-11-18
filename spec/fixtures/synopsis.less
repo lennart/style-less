@@ -15,6 +15,13 @@
     /* Inline mixin declarations */
     .right-separator() { border-right: 1px solid #949494; }
 
+    .smooth-ease(@property: all, @velocity: 700ms) {
+      -webkit-transition: @property @velocity cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -moz-transition: @property @velocity cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      -o-transition: @property @velocity cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: @property @velocity cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
     /* Literal escaped values */
     filter: ~"progid:DXImageTransform.Microsoft.Alpha(Opacity=89)";
 
