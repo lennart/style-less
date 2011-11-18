@@ -1,6 +1,6 @@
 # styleLess
 
-Parses LESS, beautifies LESS then writes LESS all using LESS.js
+Parses LESS, beautifies LESS then writes LESS all using [LESS.js](http://github.com/cloudhead/less.js)
 
 ## Synopsis
 
