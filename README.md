@@ -68,7 +68,7 @@ less than 81 chars into one line to be more concise.
 
 ## Usage
 
-  style-less ugly.less > pretty.less
+    style-less ugly.less > pretty.less
 
 
 
