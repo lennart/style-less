@@ -68,6 +68,11 @@ less than 81 chars into one line to be more concise.
 
     style-less ugly.less > pretty.less
 
+## Todo
+
+* write a command line tool to make the above example work
+* more test coverage (maybe I am still missing something within the less.js spec)
+* options for formatting like, suppressing single-line compressions
 
 
 
